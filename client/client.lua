@@ -33,9 +33,9 @@ local h_tbl = {
 
 
 function custom()
-    math.randomseed(os.time())
-    local randomIndex = math.random(0, #Config.CustomText) 
-    local randomElement = Config.CustomText[randomIndex]
+    --math.randomseed(os.time())
+    --local randomIndex = math.random(0, #Config.CustomText) 
+    local randomElement = Config.CustomText[0]
     return randomElement
 end
 function healthdisplay()

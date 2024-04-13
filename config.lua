@@ -12,8 +12,8 @@ Config = {} -- DONT TOUCH THIS PLEASE!
     Issues will solely be resolved on the Github. You can also suggest new styles/features
 --]]
 
-Config.Framework = 'QB' -- ESX, QB, STANDALONE | Consider using a framework with this script, as a lot of the functions are based on a framework. Defaults to QBCore
-Config.Delay = '5000' -- Delay between presence updates, in ms.
+Config.Framework = 'ESX' -- ESX, QB, STANDALONE | Consider using a framework with this script, as a lot of the functions are based on a framework. Defaults to QBCore
+Config.Delay = '60000' -- Delay between presence updates, in ms.
 --[[ Change this to whatever you like, previews are available on Github: 
 healthdisplay // QB, ESX and STANDALONE - Shows the player health as coloured squares, if using QB shows a hospital emoji when knocked down. And when dead shows a skull on either.
 location // QB and ESX, STANDALONE - Shows the street the player is on.
@@ -22,25 +22,22 @@ custom // QB, ESX, STANDALONE - Shows custom text, if more than one option is pr
 
 Don't like these options? Create an issue on the github with your idea and I may add it.
     --]] 
-Config.Style = 'CHANGEME'
+Config.Style = 'custom'
 -- If using the location style, translate to your server's language.
 Config.LocationText = 'Player is located on:'
 Config.CustomText = {
-    [0] = 'Be sure to join our discord to be whitelisted!',
-    [1] = 'Over a million possibilities, choose yours!',
-    [2] = 'Make sure to have fun!',
-    [3] = "Don't break rules!"
+    [0] = 'Serious roleplay community with the highest quality citizen experience',
 }
 
 --Anything you dont want to show up can be left blank.
 Config.Discord = {
-AppId = "CHANGEME", -- The discord application ID.
-BigAsset = 'CHANGEME', -- Name of a rich presence asset, will show up as the big image
-BigText = 'CHANGEME', -- Text that will show when someone hovers over the big image
-SmallAsset = 'CHANGEME', -- Small image asset name
-SmallText = 'CHANGEME', -- Text when hovering over the small imag
-Button1Text = 'CHANGEME', -- Text that will appear on the first button
-Button1Link = 'CHANGEME', -- Link that will open when pressing the first button
-Button2Text = 'CHANGEME', -- Text that will appear on the second button
-Button2Link = 'CHANGEME' -- Link that will open when pressing the second button.
+AppId = "952656681303674880", -- The discord application ID.
+BigAsset = 'https://i0.wp.com/www.livefreeroleplay.com/wp-content/uploads/2023/03/LFRPLOGOV6.png', -- Name of a rich presence asset, will show up as the big image
+BigText = 'Live Free Roleplay', -- Text that will show when someone hovers over the big image
+SmallAsset = 'https://i0.wp.com/www.livefreeroleplay.com/wp-content/uploads/2023/02/LSPDRESIZE.png', -- Small image asset name
+SmallText = 'City of Los Santos', -- Text when hovering over the small imag
+Button1Text = 'Connect', -- Text that will appear on the first button
+Button1Link = 'https://server.livefreeroleplay.com/', -- Link that will open when pressing the first button
+Button2Text = 'Website', -- Text that will appear on the second button
+Button2Link = 'https://www.livefreeroleplay.com/' -- Link that will open when pressing the second button.
 }
