@@ -12,7 +12,7 @@ Config = {} -- DONT TOUCH THIS PLEASE!
     Issues will solely be resolved on the Github. You can also suggest new styles/features
 --]]
 
-Config.Framework = 'ESX' -- ESX, QB, STANDALONE | Consider using a framework with this script, as a lot of the functions are based on a framework. Defaults to QBCore
+Config.Framework = 'STANDALONE' -- ESX, QB, STANDALONE | Consider using a framework with this script, as a lot of the functions are based on a framework. Defaults to QBCore
 Config.Delay = '60000' -- Delay between presence updates, in ms.
 --[[ Change this to whatever you like, previews are available on Github: 
 healthdisplay // QB, ESX and STANDALONE - Shows the player health as coloured squares, if using QB shows a hospital emoji when knocked down. And when dead shows a skull on either.
