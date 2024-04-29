@@ -3,11 +3,11 @@ local LoadedAndReady = false
 PlayerData = {}
 -- Framework shared objects.
 if Config.Framework == 'ESX' then
-     ESX = exports['es_extended']:getSharedObject()
+    ESX = exports["es_extended"]:getSharedObject()
     if ESX.GetPlayerData().identifier ~= nil then
         LoadedAndReady = true
     end
-     playerData = ESX.GetPlayerData()
+    playerData = ESX.GetPlayerData()
 elseif Config.Framework == 'QB' or Config.Framework == nil then
      QBCore = exports['qb-core']:GetCoreObject()
 if QBCore.Functions.GetPlayerData().citizenid ~= nil then

@@ -7,6 +7,9 @@ version '1.0.1'
 
 client_script 'client/client.lua'
 
-shared_script 'config.lua'
+shared_scripts {
+  'config.lua',
+  '@es_extended/imports.lua'
+}
 
 server_script 'server/server.lua'
